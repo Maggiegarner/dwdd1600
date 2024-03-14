@@ -1,0 +1,12 @@
+body{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+ol li{
+    list-style: decimal;
+    list-style-position: inside;
+        
+}
