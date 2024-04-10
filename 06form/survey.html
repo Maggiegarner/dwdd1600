@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Climbing journey: Home </title>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Maggie Garner">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+        <header>
+            <h1>Climbing images</h1>
+         </header>
+        <nav class="navbar">
+        <ul>
+            <li><a href="index.html">What is climbing</a></li>
+            <li><a href="inspiration.html">climbing inspiration</a></li>
+            <li><a href="images.html">Climbing images</a></li>
+            <li><a>contact</a></li>
+            <li class="active"><a href="survey.html">Climbing survey</a></li>
+        </ul>
+        </nav>
+        <main>
+            <h1>Climbing Survey</h1>
+            
+            <fieldset>
+                <legend>Climber info</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+                <label>phone number*<input type="tel" name="phone" required></label>
+                <label>Email*<input type="Email" name="Email" required></label>
+                </fieldset>
+            <fieldset>
+            <p>What state would you like to climb in?</p>
+<input type="radio" id="Utah" name="State" value="state">
+<label for="Utah">Utah</label>
+<input type="radio" id="Idaho" name="state" value="state">
+<label for="Idaho">Idaho</label>
+<input type="radio" id="California" name="state" value="state">
+<label for="California">California</label>
+                </fieldset>
+
+            
+            <label>Have you ever been climbing before?
+                <select name="yes">
+                <option value="yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+              </label>
+            
+             <label>Do you want to learn how to climb?
+                <select name="yes">
+                <option value="yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+              </label>
+            
+         <fieldset>
+                <legend>CLimbing experience<br>Check all that applies</legend>
+                <label><input type="checkbox" name="belay device" value="chosen">I know what a belay device is</label>
+                <label><input type="checkbox" name="harness" value="chosen">I have used a rock climbing harness before</label>
+                <label><input type="checkbox" name="Some" value="chosen">I have been climbing before</label>
+                <label><input type="checkbox" name="friends" value="chosen">I have friends that climb</label>
+                <label><input type="checkbox" name="heights" value="chosen">Heights scare me</label>
+                <label><input type="checkbox" name="Bouldering" value="chosen">I have heard of bouldering</label>
+
+         
+            </fieldset>
+            
+            
+            <fieldset>
+                <legend>How much do you want to learn to climb?<br>on a scale of 1-5, 5 being the super interested and 1 not at all</legend>
+                <label><input type="checkbox" name="1" value="chosen">1 not interested</label>
+                <label><input type="checkbox" name="2" value="chosen">2 a little interested</label>
+                <label><input type="checkbox" name="3" value="chosen">3 somewhat interested</label>
+                <label><input type="checkbox" name="4" value="chosen">4 interested</label>
+                <label><input type="checkbox" name="5" value="chosen">5 very interested</label>
+                
+             </fieldset>
+            
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+            
+             <form method="get" class="mySurvey" action="thanks.html">
+            <input type="submit" value="submit survey">
+            </form>
+       
+            
+            
+                
+            
+            
+         </main>
+        
+        
+<footer>
+        <p>&copy; 2024 &bull; Maggie Garner &bull; <a href="mailto:maggiegarnerphotography@gmail.com">Email Us</a></p>
+    
+    </footer></body>
+    </html>
